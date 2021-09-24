@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FB4EDDB0-F1A2-423A-A7C0-FE9FBA1A35B7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MP1",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
