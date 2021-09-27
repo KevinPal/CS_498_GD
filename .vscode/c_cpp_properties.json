@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "MP1Editor Editor Linux Development (MP1)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_MP1.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default.json"
+		}
+	]
+}

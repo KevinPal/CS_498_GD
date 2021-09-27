@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MP1 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MP1 Linux Debug Build",
+			"program": "/home/kevinp5/School/cs_498/MP1/Binaries/Linux/UE4-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MP1 Linux DebugGame Build",
+			"program": "/home/kevinp5/School/cs_498/MP1/Binaries/Linux/UE4-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1 (Development)",
+			"request": "launch",
+			"preLaunchTask": "MP1 Linux Development Build",
+			"program": "/home/kevinp5/School/cs_498/MP1/Binaries/Linux/UE4",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MP1 Linux Shipping Build",
+			"program": "/home/kevinp5/School/cs_498/MP1/Binaries/Linux/UE4-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1 (Test)",
+			"request": "launch",
+			"preLaunchTask": "MP1 Linux Test Build",
+			"program": "/home/kevinp5/School/cs_498/MP1/Binaries/Linux/UE4-Linux-Test",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MP1Editor Linux Debug Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP1/MP1.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MP1Editor Linux DebugGame Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP1/MP1.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP1Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MP1Editor Linux Development Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP1/MP1.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/kevinp5/School/cs_498/MP1/MP1.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/opt/unreal-engine"
+		}
+	]
+}

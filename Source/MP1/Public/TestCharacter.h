@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/Pawn.h"
 #include "Components/TimelineComponent.h"
+#include "Components/BoxComponent.h"
 
 #include "TestCharacter.generated.h"
 
@@ -32,11 +33,11 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Attributes);
     int forward_speed = 2000;
 
+    UPROPERTY(EditAnywhere)
+    class UBoxComponent* collider = NULL;
+
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	float health;
-
-    float prev_health;
-    float target_health;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	bool can_dmg;
@@ -44,13 +45,24 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	UCurveFloat* health_curve;
 
-	FTimeline health_timeline;
-	//float curve_float_val;
-	//float timeline_val;
-	FTimerHandle timer_handle;
-
     UFUNCTION(BlueprintPure, Category="Health")
 	FText GetHealthText();
+
+    UFUNCTION(BlueprintPure, Category="Health")
+    bool PlayFlash();
+
+    UFUNCTION(BlueprintCallable, BlueprintPure,  Category="Health")
+    float GetHealth();
+
+	FTimeline health_timeline;
+    float prev_health;
+    float target_health;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Score")
+	int score;
+
+    UFUNCTION(BlueprintPure, Category="Score")
+	FText GetScoreText();
 
     UFUNCTION()
     void MoveUp(float value);
@@ -61,19 +73,40 @@ public:
 	UFUNCTION()
     void SetHealth();
 
-    UFUNCTION(BlueprintCallable, BlueprintPure,  Category="Health")
-    float GetHealth();
-
     UFUNCTION()
     void SetCanDmg();
 
-    UFUNCTION(BlueprintPure, Category="Health")
-    bool PlayFlash();
+	FTimeline cooldown_timeline;
+    float prev_cooldown;
+    float target_cooldown;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Cooldown")
+	bool can_shoot;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Cooldown")
+	float cooldown;
+
+    UFUNCTION()
+    void SetCooldown();
+
+    UFUNCTION()
+    void SetCanShoot();
+
+    UFUNCTION(BlueprintCallable, BlueprintPure,  Category="Cooldown")
+    float GetCooldown();
+
+    UFUNCTION(Category="Cooldown")
+    void OnShoot();
 
     bool should_flash;
 
 	void ReceiveDamage(float Damage, AActor* Damager);
 
+    UFUNCTION(BlueprintCallable)
+    void Restart();
+
+    UFUNCTION(BlueprintCallable)
+    bool IsGameOver();
 
 
 

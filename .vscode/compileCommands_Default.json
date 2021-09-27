@@ -1,0 +1,87 @@
+[
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/MP1.Build.cs",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/MP1.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/MP1.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/MyGameModeBase.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/MyGameModeBase.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/Bullet.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/GameHUD.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/HealthPack.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/TestCharacter.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/tmp_class.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Private/Tunnel.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/Bullet.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/GameHUD.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/HealthPack.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/TestCharacter.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/tmp_class.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP1/Source/MP1/Public/Tunnel.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP1/.vscode/compileCommands_Default/MP1.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	}
+]
