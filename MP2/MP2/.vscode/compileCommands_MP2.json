@@ -1,0 +1,57 @@
+[
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2.Build.cs",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2Character.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2Character.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2GameMode.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2GameMode.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2HUD.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2HUD.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2Projectile.cpp",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/kevinp5/School/cs_498/MP2/MP2/Source/MP2/MP2Projectile.h",
+		"command": "cl.exe @\"/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2/MP2.149.rsp\"",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	}
+]

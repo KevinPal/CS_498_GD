@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MP2 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MP2 Linux Debug Build",
+			"program": "/home/kevinp5/School/cs_498/MP2/MP2/Binaries/Linux/UE4-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MP2 Linux DebugGame Build",
+			"program": "/home/kevinp5/School/cs_498/MP2/MP2/Binaries/Linux/UE4-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2 (Development)",
+			"request": "launch",
+			"preLaunchTask": "MP2 Linux Development Build",
+			"program": "/home/kevinp5/School/cs_498/MP2/MP2/Binaries/Linux/UE4",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MP2 Linux Shipping Build",
+			"program": "/home/kevinp5/School/cs_498/MP2/MP2/Binaries/Linux/UE4-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2 (Test)",
+			"request": "launch",
+			"preLaunchTask": "MP2 Linux Test Build",
+			"program": "/home/kevinp5/School/cs_498/MP2/MP2/Binaries/Linux/UE4-Linux-Test",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MP2Editor Linux Debug Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP2/MP2/MP2.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MP2Editor Linux DebugGame Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP2/MP2/MP2.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "MP2Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MP2Editor Linux Development Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/kevinp5/School/cs_498/MP2/MP2/MP2.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/kevinp5/School/cs_498/MP2/MP2/MP2.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/opt/unreal-engine"
+		}
+	]
+}

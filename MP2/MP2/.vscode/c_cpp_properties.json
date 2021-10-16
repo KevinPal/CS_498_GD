@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "MP2Editor Editor Linux Development (MP2)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_MP2.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/kevinp5/School/cs_498/MP2/MP2/.vscode/compileCommands_Default.json"
+		}
+	]
+}
